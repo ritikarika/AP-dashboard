@@ -1,0 +1,10 @@
+relationship 7b1c940c-af11-47e1-8ab7-388aad1766f0
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Data1.'Order Date'
+	toColumn: LocalDateTable_b7c10b2a-84ee-435e-b2d7-46c637decfc6.Date
+
+relationship f0444f40-f275-49ca-9d8d-3cc95e9d3814
+	joinOnDateBehavior: datePartOnly
+	fromColumn: CalendarTable.Date
+	toColumn: LocalDateTable_474759ce-f365-4ac4-8f6b-c5f3e341d542.Date
+
