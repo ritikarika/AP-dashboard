@@ -5,6 +5,8 @@
   },
   "config": {
     "version": "2.0",
-    "logicalId": "b32398a0-add7-4287-b6f8-611fa7c9686e"
+
+    "logicalId": ["b32398a0-add7-4287-b6f8-611fa7c9686e"," "af11056f-e6fb-4895-9ad1-15f262ef9574"]
+
   }
 }
