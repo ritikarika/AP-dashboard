@@ -1,0 +1,23 @@
+table CountryMaster
+	lineageTag: d6ed24f5-7f21-4040-908b-2eecd8bcb422
+
+	column City
+		lineageTag: 7496fc6d-6f31-4a3b-8fd3-59c4f739d44d
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [City]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CountryMaster = calculated
+		mode: import
+		source = ```
+				DISTINCT(SELECTCOLUMNS(
+				    financials,
+				        "City", financials[Country]
+				))
+				
+				```
+
+	annotation PBI_Id = 06f36518fc3d43de908f7d10cb5c8cb5
+
