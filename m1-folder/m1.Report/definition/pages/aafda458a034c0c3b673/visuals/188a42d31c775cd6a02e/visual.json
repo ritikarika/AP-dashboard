@@ -39,13 +39,13 @@
                 "Measure": {
                   "Expression": {
                     "SourceRef": {
-                      "Entity": "measure"
+                      "Entity": "#measure"
                     }
                   },
                   "Property": "Sum"
                 }
               },
-              "queryRef": "measure.Sum",
+              "queryRef": "#measure.Sum",
               "nativeQueryRef": "Sum"
             }
           ]
@@ -58,7 +58,7 @@
               "Measure": {
                 "Expression": {
                   "SourceRef": {
-                    "Entity": "measure"
+                    "Entity": "#measure"
                   }
                 },
                 "Property": "Sum"
@@ -75,20 +75,6 @@
   "filterConfig": {
     "filters": [
       {
-        "name": "3fdb94474650b36d9cc1",
-        "field": {
-          "Measure": {
-            "Expression": {
-              "SourceRef": {
-                "Entity": "measure"
-              }
-            },
-            "Property": "Sum"
-          }
-        },
-        "type": "Advanced"
-      },
-      {
         "name": "9d9f50ff3166327240b3",
         "field": {
           "Column": {
@@ -101,6 +87,20 @@
           }
         },
         "type": "Categorical"
+      },
+      {
+        "name": "9f33d23ed2e9040260c3",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "#measure"
+              }
+            },
+            "Property": "Sum"
+          }
+        },
+        "type": "Advanced"
       }
     ]
   }

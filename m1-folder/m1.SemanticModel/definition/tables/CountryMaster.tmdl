@@ -1,8 +1,8 @@
 table CountryMaster
-	lineageTag: 7800bd0e-e714-4dfe-a62b-e391acb0efcc
+	lineageTag: d6ed24f5-7f21-4040-908b-2eecd8bcb422
 
 	column Region
-		lineageTag: 4f89fad1-d9ad-439b-b93d-c5f44fc225c9
+		lineageTag: f6f81fe6-a123-43da-a8ff-209d8ab64004
 		summarizeBy: none
 		isNameInferred
 		sourceColumn: [Region]
@@ -10,7 +10,7 @@ table CountryMaster
 		annotation SummarizationSetBy = Automatic
 
 	column Country
-		lineageTag: fe298111-400a-4087-9dc8-1c4b22340a82
+		lineageTag: acf1af20-e4fc-49f0-9026-f89c76643668
 		summarizeBy: none
 		isNameInferred
 		sourceColumn: [Country]
@@ -18,7 +18,7 @@ table CountryMaster
 		annotation SummarizationSetBy = Automatic
 
 	column City
-		lineageTag: 96c5d1fe-a6fd-4f60-96d7-cfc5597ed0a2
+		lineageTag: 7496fc6d-6f31-4a3b-8fd3-59c4f739d44d
 		summarizeBy: none
 		isNameInferred
 		sourceColumn: [City]
@@ -37,5 +37,5 @@ table CountryMaster
 				
 				```
 
-	annotation PBI_Id = a60c205a0bfa41b991862ca8e068bff3
+	annotation PBI_Id = 06f36518fc3d43de908f7d10cb5c8cb5
 
